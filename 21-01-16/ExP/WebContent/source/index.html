@@ -1,0 +1,1325 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+
+
+
+
+
+
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+/*login jquery  */
+$(document).ready(function(){
+	$('#e').hide();
+	$('#v').hide();
+    $('input[type="radio"]').click(function(){
+        if($(this).attr("value")=="employee"){
+        	  $('#e').show();
+        	  $('#v').hide();
+        }
+        if($(this).attr("value")=="visitor"){
+        	 $('#v').show();
+       	  $('#e').hide();
+        }
+        
+    });
+});
+</script>
+<!-- script coding for rating  -->
+
+ 
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>The ExP &mdash; </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+<meta name="keywords"
+	content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+<meta name="author" content="FREEHTML5.CO" />
+
+<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+<!-- Facebook and Twitter integration -->
+<meta property="og:title" content="" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:url" content="" />
+<meta name="twitter:card" content="" />
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<link
+	href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700'
+	rel='stylesheet' type='text/css'>
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- Icomoon Icon Fonts-->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Simple Line Icons -->
+<link rel="stylesheet" href="css/simple-line-icons.css">
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+<link rel="stylesheet" id="theme-switch" href="css/style.css">
+<!-- End demo purposes only -->
+
+
+
+
+<!--LOGIN TEMPLATE LINKS  -->
+
+<link rel="stylesheet" href="css/reset.css">
+
+<link rel='stylesheet prefetch'
+	href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch'
+	href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+<link rel="stylesheet" href="css/style1.css">
+
+<link rel='stylesheet' type='text/css' href='css/style2.css'>
+ 
+
+
+
+
+<style>
+/* For demo purpose only */
+
+/* For Demo Purposes Only ( You can delete this anytime :-) */
+#colour-variations {
+	padding: 10px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	width: 140px;
+	position: fixed;
+	left: 0;
+	top: 100px;
+	z-index: 999999;
+	background: #fff;
+	/*border-radius: 4px;*/
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+}
+
+#colour-variations.sleep {
+	margin-left: -140px;
+}
+
+#colour-variations h3 {
+	text-align: center;;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #777;
+	margin: 0 0 10px 0;
+	padding: 0;;
+}
+
+#colour-variations ul, #colour-variations ul li {
+	padding: 0;
+	margin: 0;
+}
+
+#colour-variations li {
+	list-style: none;
+	display: inline;
+}
+
+#colour-variations li a {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	margin: 5px;
+}
+
+#colour-variations li a[data-theme="style"] {
+	background: #6173f4;
+}
+
+#colour-variations li a[data-theme="pink"] {
+	background: #f64662;
+}
+
+#colour-variations li a[data-theme="blue"] {
+	background: #2185d5;
+}
+
+#colour-variations li a[data-theme="turquoise"] {
+	background: #00b8a9;
+}
+
+#colour-variations li a[data-theme="orange"] {
+	background: #ff6600;
+}
+
+#colour-variations li a[data-theme="lightblue"] {
+	background: #5585b5;
+}
+
+#colour-variations li a[data-theme="brown"] {
+	background: #a03232;
+}
+
+#colour-variations li a[data-theme="green"] {
+	background: #65d269;
+}
+
+.option-toggle {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 5px;
+	margin-right: -30px;
+	width: 30px;
+	height: 30px;
+	background: #f64662;
+	text-align: center;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+}
+
+.option-toggle i {
+	top: 2px;
+	position: relative;
+}
+
+.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+</style>
+<!-- End demo purposes only -->
+
+
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<header role="banner" id="fh5co-header">
+		<div class="container">
+			<!-- <div class="row"> -->
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"
+						data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+						aria-controls="navbar"><i></i></a> <a class="navbar-brand"
+						href="index.html">The Explore Persistent : ExP</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+						<li><a href="#" data-nav-section="about"><span>Explore</span></a></li>
+						<li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+						
+						<li><a href="#" data-nav-section="pricing"><span>Rating</span></a></li>
+						<li><a href="#" data-nav-section="testimonials"><span>Login</span></a></li>
+						<li><a href="#" data-nav-section="press"><span>About</span></a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- </div> -->
+		</div>
+	</header>
+
+	<div id="slider" data-section="home">
+		<div class="owl-carousel owl-carousel-fullwidth">
+			<!-- You may change the background color here. -->
+			<div class="item" style="background: #352f44;">
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-md-7 col-sm-7">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">Explore Persistent</h1>
+									<h2 class="fh5co-sub-lead to-animate">
+										One place to Explore the whole Persistent in few seconds<a
+											href="http://freehtml5.co/" target="_blank"></a>
+										</h3>
+										<!-- <p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">View Case Study</a></p> -->
+								</div>
+							</div>
+						</div>
+						<div
+							class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
+							<div class="iphone to-animate-2">
+								<img src="images/ExPlogo.PNG"
+									alt="Free HTML5 Template by FREEHTML5.co">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+			<div class="item" style="background: #38569f;">
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div
+							class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">Persistent System Ltd</h1>
+									<h2 class="fh5co-sub-lead to-animate">
+										Go Green Persistent <a href="http://freehtml5.co/"
+											target="_blank"></a>
+										</h3>
+										<!-- <p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">View Case Study</a></p> -->
+								</div>
+							</div>
+						</div>
+						<div
+							class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
+							<div class="iphone to-animate-2">
+								<img src="images/ExPlogo.PNG"
+									alt="Free HTML5 Template by FREEHTML5.co">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image: url(images/slide_5.jpg)">
+				<div class="overlay"></div>
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="fh5co-owl-text-wrap">
+								<div class="fh5co-owl-text">
+									<h1 class="fh5co-lead to-animate">Socialistic view of
+										Persistent</h1>
+									<h2 class="fh5co-sub-lead to-animate">
+										Education initiative by Persistent<br> Tree plantation by
+										Persistent <a href="http://freehtml5.co/" target="_blank"></a>
+										</h2>
+										<!-- <p class="to-animate-2"><a href="http://freehtml5.co/" target="_blank" class="btn btn-primary btn-lg">Download This Template</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="fh5co-about-us" data-section="about">
+		<div class="container">
+			<div class="row row-bottom-padded-lg" id="about-us">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Explore Persistent</h2>
+					
+				</div>
+				
+				<div>
+				<div class="col-md-8 to-animate">
+					<img src="images/persistent.jpg" class="img-responsive img-rounded"
+						alt="Free HTML5 Template">
+				</div>
+				
+				<style type="text/css">
+.form-style-3{
+    max-width: 550px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 100px;
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: #F072A9;
+    font-weight: bold;
+    font-size: 13px;
+    /* text-shadow: 1px 1px 1px #fff; */
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #0B0B61;
+    padding: 20px;
+    background: #0B0B61;
+    /* box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5; */
+    box-shadow: 10px 10px 5px #F072A9;
+    width: 300px;
+}
+.form-style-3 fieldset legend{
+    color: #0000FF;
+    
+    border-top: 1px solid #0B0B61;
+    border-left: 1px solid #0B0B61;
+    border-right: 1px solid #0B0B61;
+    border-bottom: 1px solid #0B0B61;
+    background:#0B0B61;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #FFF4F4;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 12px;
+    width: 120px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #FFC2DC;
+    outline: none;
+    color: #F072A9;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: #FFEFF6;
+    width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: #EB3B88;
+    border: 1px solid #C94A81;
+    padding: 5px 15px 5px 15px;
+    color: #FFCBE2;
+    box-shadow: inset -1px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;    
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:normal;
+}
+</style> 
+<div class="form-style-3" style="float: left;">
+<form>
+<fieldset><legend><b>Find Your Path</b></legend>
+
+<label for="field4"><span>Source</span><select name="field4" class="select-field" style="width: 150px">
+<option value="" disabled selected style="display: none;">Select Source</option>
+<option value="Appointment">pantry</option>
+<option value="Interview">Cafeteria</option>
+
+</select></label>
+
+<label for="field4"><span>Destination</span><select name="field4" class="select-field" style="width: 150px">
+<option value="" disabled selected style="display: none;">Select Destination</option>
+<option value="Appointment">pantry</option>
+<option value="Interview">Cafeteria</option>
+
+</select></label>
+<input type="submit" value="Go" />
+</fieldset>
+<!-- <fieldset><legend>Message</legend>
+<label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+<label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+</fieldset> -->
+
+
+</form>
+</div>
+				
+</div>			
+				
+				 
+				
+				
+			</div>
+<!-- 			<div class="row" id="team">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Team</h2>
+				</div>
+				<div class="col-md-12">
+					<div class="row row-bottom-padded-lg">
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person2.jpg" class="img-responsive img-rounded"
+									alt="Person">
+								<h3 class="name">John Doe</h3>
+								<div class="position">Web Developer</div>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.
+									Separated they live in Bookmarksgrove right at the coast of the
+									Semantics.</p>
+								<ul class="social social-circle">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-instagram"></i></a></li>
+									<li><a href="#"><i class="icon-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person3.jpg" class="img-responsive img-rounded"
+									alt="Person">
+								<h3 class="name">Rob Smith</h3>
+								<div class="position">Web Designer</div>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.
+									Separated they live in Bookmarksgrove right at the coast of the
+									Semantics.</p>
+								<ul class="social social-circle">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-instagram"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 text-center to-animate">
+							<div class="person">
+								<img src="images/person4.jpg" class="img-responsive img-rounded"
+									alt="Person">
+								<h3 class="name">John Doe</h3>
+								<div class="position">Photographer</div>
+								<p>Far far away, behind the word mountains, far from the
+									countries Vokalia and Consonantia, there live the blind texts.
+									Separated they live in Bookmarksgrove right at the coast of the
+									Semantics.</p>
+								<ul class="social social-circle">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-instagram"></i></a></li>
+									<li><a href="#"><i class="icon-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<div id="fh5co-our-services" data-section="services">
+		<div class="container">
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Our Services</h2>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box to-animate">
+						<div class="icon colored-1">
+							<!-- <span><i class="icon-mustache"></i></span> -->
+							<img alt="" src="icons/gym.png" width="75px" height="75px">
+						</div>
+						<h3><a href="#" data-nav-section="about">Gym</a></h3>
+						<p>Persistent's Gym is your way to fitness. 
+							Keep fit in our best equipped Gym.
+					 	Latest equipments and facilities, expert trainers.</p>
+					</div>
+					
+					<div class="box to-animate">
+						<div class="icon colored-2">
+							<img alt="" src="icons/cafeteria.png" width="75px" height="75px">
+						</div>
+						<h3><a href="#" data-nav-section="about">Cafeteria</a></h3>
+						<p>Huge cafeterias of Persistent with
+							 all great arrangements.</p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box to-animate">
+						<div class="icon colored-4">
+							<img alt="" src="icons/tabletennis.png" width="75px" height="75px">
+						</div>
+						<h3><a href="#" data-nav-section="about">Table Tennis Room</a></h3>
+						<p>Huge Table Tennis room for 
+						  employees with all facilities. 
+						</p>
+					</div>
+					<div class="box to-animate">
+						<div class="icon colored-5">
+							<img alt="" src="icons/yoga.png" width="75px" height="75px">
+						</div>
+						<h3><a href="#" data-nav-section="about">Yoga Room</a></h3>
+						<p>Spacious Yoga room
+							of Persistent</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box to-animate">
+						<div class="icon colored-3">
+							<img alt="" src="icons/carrom.png" width="70px" height="70px">
+						</div>
+						<h3><a href="#" data-nav-section="about" style="margin-top: 20px;">Carrom Play Room</a></h3>
+						<p>Carrom room for Persistent Employees
+								with carrom boards</p>
+					</div>
+					<div class="box to-animate">
+						<div class="icon colored-6">
+							<img alt="" src="icons/dpr.jpg" width="70px" height="70px">
+						</div>
+						<h3><a href="#" data-nav-section="about">Play Station</a></h3>
+						<p>Play station of Persistent for
+							techno lover Employees</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="fh5co-features" data-section="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-features-1">Features</h2>
+					<div class="row">
+						<div
+							class="col-md-8 col-md-offset-2 single-animate animate-features-2">
+							<h3>Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-present"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>100% Free</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-eye"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>Retina Ready</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-crop"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>Fully Responsive</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-speedometer"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>Lightweight</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-heart"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>Made with Love</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div
+					class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service to-animate">
+					<div class="fh5co-icon">
+						<i class="icon-umbrella"></i>
+					</div>
+					<div class="fh5co-desc">
+						<h3>Eco Friendly</h3>
+						<p>Far far away, behind the word mountains, far from the
+							countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+			</div>
+			<div class="row">
+				<div
+					class="col-md-4 col-md-offset-4 single-animate animate-features-3">
+					<a href="#" class="btn btn-primary btn-block">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="fh5co-testimonials" data-section="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Login Here...</h2>
+					<!-- <div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+						</div>
+					</div> -->
+				</div>
+			</div>
+			<div class="row">
+				<!-- <div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony to-animate">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+						</blockquote>
+						<p class="author">John Doe, Founder <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+					</div>
+					
+				</div> -->
+
+
+
+				<!--  HTML CODE FROM LOGIN TEMPLATE-->
+
+
+				<!-- <div class="pen-title">
+  <h1>Material Login Form</h1><span>Pen <i class='fa fa-code'></i> by <a href='http://andytran.me'>Andy Tran</a></span>
+</div> -->
+				<!-- <div class="rerun"><a href="">Rerun Pen</a></div> -->
+				<form>
+					<div id="type">
+						<center>
+							<input class="typeuser" type="radio" name="lgn" value="employee">
+							&nbsp; EMPLOYEE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+							&nbsp; <input class="typeuser" type="radio" name="lgn"
+								value="visitor"> &nbsp; VISITOR<br>
+						</center>
+					</div>
+				</form>
+				<br> <br> <br> <br>
+				<div class="container1" id="e">
+					<div class="card"></div>
+					<div class="card">
+						<h1 class="title">LOGIN EMPLOYEE</h1>
+						<form>
+							<div class="input-container1">
+								<input type="text" id="Username" required="required" /> <label
+									for="Username">Username</label>
+								<div class="bar"></div>
+							</div>
+							<div class="input-container1">
+								<input type="password" id="Password" required="required" /> <label
+									for="Password">Password</label>
+								<div class="bar"></div>
+							</div>
+							<div class="button-container1">
+								<button>
+									<span>Go</span>
+								</button>
+							</div>
+							<div class="footer">
+								<a href="#">Forgot your password?</a>
+							</div>
+						</form>
+					</div>
+					<div class="card alt">
+						<div class="toggle"></div>
+						<h1 class="title">
+							REGISTER EMPLOYEE
+							<div class="close"></div>
+						</h1>
+						<form>
+							<div class="input-container1">
+								<input type="text" id="EmployeeId" required="required" /> <label
+									for="EmployeeId">EmployeeId</label>
+								<div class="bar"></div>
+							</div>
+							<div class="input-container1">
+								<input type="text" id="Username" required="required" /> <label
+									for="Username">Username</label>
+								<div class="bar"></div>
+							</div>
+							<div class="input-container1">
+								<input type="password" id="Password" required="required" /> <label
+									for="Password">Password</label>
+								<div class="bar"></div>
+							</div>
+
+							<div class="input-container1">
+								<input type="text" id="EmailId" required="required" /> <label
+									for="EmailId">EmailId</label>
+								<div class="bar"></div>
+							</div>
+							<!--  <div class="input-container1">
+        <input type="password" id="Repeat Password" required="required"/>
+        <label for="Repeat Password">Repeat Password</label>
+        <div class="bar"></div>
+      </div> -->
+							<div class="button-container1">
+								<button>
+									<span>Next</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<!--vistor login  -->
+
+
+				<div class="container1" id="v">
+					<div class="card"></div>
+					<div class="card">
+						<h1 class="title">LOGIN VISITOR</h1>
+						<form>
+
+							<div class="input-container1">
+								<input type="text" id="Username" required="required" /> <label
+									for="Username">Username</label>
+								<div class="bar"></div>
+							</div>
+
+							<div class="input-container1">
+								<input type="password" id="Password" required="required" /> <label
+									for="Password">Password</label>
+								<div class="bar"></div>
+							</div>
+
+							<div class="button-container1">
+								<button>
+									<span>Go</span>
+								</button>
+							</div>
+							<div class="footer">
+								<a href="#">Forgot your password?</a>
+							</div>
+						</form>
+					</div>
+					<div class="card alt">
+						<div class="toggle"></div>
+						<h1 class="title">
+							REGISTER VISITOR
+							<div class="close"></div>
+						</h1>
+						<form>
+							<div class="input-container1">
+								<input type="text" id="Username" required="required" /> <label
+									for="Username">Username</label>
+								<div class="bar"></div>
+							</div>
+
+							<div class="input-container1">
+								<input type="text" id="EmailId" required="required" /> <label
+									for="EmailId">EmailId</label>
+								<div class="bar"></div>
+							</div>
+
+							<div class="input-container1">
+
+								<select style="width: 200px;">
+									<option value="" disabled selected style="display: none;">Visitor
+										Type</option>
+									<option value="volvo">Trainer</option>
+									<option value="saab">Visitor</option>
+								</select>
+
+								<!--   <input class="typeuser" type="radio" name="lgn" value="employee"> &nbsp; EMPLOYEE
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <input class="typeuser" type="radio" name="lgn" value="visitor"> &nbsp; VISITOR<br> -->
+							</div>
+
+							<div class="button-container1">
+								<button>
+									<span>Generate OTP</span>
+								</button>
+							</div>
+
+							<div class="input-container1">
+								<input type="password" id="Password" required="required" />
+								<!--  <label for="Password">Password</label> -->
+								<div class="bar"></div>
+							</div>
+
+							<!--  <div class="input-container1">
+        <input type="password" id="Repeat Password" required="required"/>
+        <label for="Repeat Password">Repeat Password</label>
+        <div class="bar"></div>
+      </div> -->
+							<div class="button-container1">
+								<button>
+									<span>Next</span>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- <!-- Portfolio-->
+				<!-- <a id="portfolio" href="http://andytran.me/" title="View my portfolio!"><i class="fa fa-link"></i></a>
+CodePen<a id="codepen" href="http://codepen.io/andytran/" title="Follow me!"><i class="fa fa-codepen"></i></a> -->
+				-->
+				<script
+					src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+				<script src="js/index.js"></script>
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div id="fh5co-pricing" data-section="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-pricing-1">Rate And Review</h2>
+					
+			
+					
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<!-- code from review.html -->
+			
+
+
+			<div class="row">
+
+				
+				
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">Starter</h2>
+						<div class="price">
+							<sup class="currency">$</sup>7<small>/mo</small>
+						</div>
+						<p>Basic customer support for small business</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>10 projects</li>
+							<li>20 Pages</li>
+							<li>20 Emails</li>
+							<li>100 Images</li>
+						</ul>
+						<a href="#" class="btn btn-default btn-sm">Get started</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">Regular</h2>
+						<div class="price">
+							<sup class="currency">$</sup>19<small>/mo</small>
+						</div>
+						<p>Basic customer support for small business</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>15 projects</li>
+							<li>40 Pages</li>
+							<li>40 Emails</li>
+							<li>200 Images</li>
+						</ul>
+						<a href="#" class="btn btn-default btn-sm">Get started</a>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+				<div class="col-md-3 col-sm-6 to-animate">
+					<div class="price-box popular">
+						<div class="popular-text">Best value</div>
+						<h2 class="pricing-plan">Plus</h2>
+						<div class="price">
+							<sup class="currency">$</sup>79<small>/mo</small>
+						</div>
+						<p>Basic customer support for small business</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>Unlimitted projects</li>
+							<li>100 Pages</li>
+							<li>100 Emails</li>
+							<li>700 Images</li>
+						</ul>
+						<a href="#" class="btn btn-primary btn-sm">Get started</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="price-box to-animate">
+						<h2 class="pricing-plan">Enterprise</h2>
+						<div class="price">
+							<sup class="currency">$</sup>125<small>/mo</small>
+						</div>
+						<p>Basic customer support for small business</p>
+						<hr>
+						<ul class="pricing-info">
+							<li>Unlimitted projects</li>
+							<li>Unlimitted Pages</li>
+							<li>Unlimitted Emails</li>
+							<li>Unlimitted Images</li>
+						</ul>
+						<a href="#" class="btn btn-default btn-sm">Get started</a>
+					</div>
+				</div>
+ -->
+			</div>
+				<div id="rate" align="center">
+				
+				<fieldset class="rating">
+				<input type="radio" name="stars" id="4_stars" value="4" class="radioin"> 
+				<label class="stars" for="4_stars">4 stars</label> 
+				<input type="radio" name="stars" id="3_stars" value="3" class="radioin">
+				 <label class="stars" for="3_stars">3 stars</label>
+				  <input type="radio" name="stars" id="2_stars" value="2" class="radioin"> 
+				  <label class="stars" for="2_stars">2stars</label> 
+				  <input type="radio" name="stars" id="1_stars" value="1" class="radioin">
+				  <label class="stars" for="1_stars">1 star</label> 
+				  <input type="radio" name="stars" id="0_stars" value="0" required class="radioin">
+
+					<label class="stars" for="0_stars">0 star</label> 
+					<span class="label"> Rating: </span>
+			</fieldset>	
+			 
+			</div>
+			
+		</div>
+	
+			<div id="reviewbox" align="center">
+			<textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." rows="3"></textarea>
+			
+			</div>
+							<br><br>
+							<center>	<a href="#" class="btn btn-primary btn-sm">Save</a>	</center>
+							
+	
+
+	<div id="fh5co-press" data-section="press">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="single-animate animate-press-1">About Us</h2>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_7.jpg)"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Simplicity <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_8.jpg)"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Versatile <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_9.jpg);"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Aesthetic <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+				<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_10.jpg);"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Creative <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+						<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_10.jpg);"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Creative <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+						<div class="col-md-6">
+					<!-- Press Item -->
+					<div class="fh5co-press-item to-animate">
+						<div class="fh5co-press-img"
+							style="background-image: url(images/img_10.jpg);"></div>
+						<div class="fh5co-press-text">
+							<h3 class="h2 fh5co-press-title">
+								Creative <span class="fh5co-border"></span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Veritatis eius quos similique suscipit dolorem cumque vitae qui
+								molestias illo accusantium...</p>
+							<p>
+								<a href="#" class="btn btn-primary btn-sm">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<!-- Press Item -->
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.youtube.com/"><i class="icon-youtube"></i></a></li>
+						<li><a href="https://in.pinterest.com/"><i class="icon-pinterest"></i></a></li>
+						<li><a href="https://in.linkedin.com"><i class="icon-linkedin"></i></a></li>
+						<li><a href="#"><i class="icon-instagram"></i></a></li>
+						<li><a href="#"><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<div id="colour-variations">
+		<a class="option-toggle"><i class="icon-gear"></i></a>
+		<h3>Preset Colors</h3>
+		<ul>
+			<li><a href="javascript: void(0);" data-theme="style"></a></li>
+			<li><a href="javascript: void(0);" data-theme="pink"></a></li>
+			<li><a href="javascript: void(0);" data-theme="blue"></a></li>
+			<li><a href="javascript: void(0);" data-theme="turquoise"></a></li>
+			<li><a href="javascript: void(0);" data-theme="orange"></a></li>
+			<li><a href="javascript: void(0);" data-theme="lightblue"></a></li>
+			<li><a href="javascript: void(0);" data-theme="brown"></a></li>
+			<li><a href="javascript: void(0);" data-theme="green"></a></li>
+		</ul>
+	</div>
+	<!-- End demo purposes only -->
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="js/jquery.style.switcher.js"></script>
+	<script>
+	$(function(){
+		$('#colour-variations ul').styleSwitcher({
+			defaultThemeId: 'theme-switch',
+			hasPreview: false,
+			cookie: {
+	          	expires: 30,
+	          	isManagingLoad: true
+	      	}
+		});	
+		$('.option-toggle').click(function() {
+			$('#colour-variations').toggleClass('sleep');
+		});
+	});
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
